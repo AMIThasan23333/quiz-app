@@ -2,7 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div style={{textAlign : 'center', marginBottom : 10}}>
+      
+      @Md Morshed
+      
+    </div>
   )
 }
 
