@@ -42,7 +42,7 @@ const Quiz = ({ name, questions, score, setScore, setQuestions }) => {
           <Question
             currQues={currQues}
             setCurrQues={setCurrQues}
-            questions={questions}
+            question={questions}
             options={options}
             correct={questions[currQues]?.correct_answer}
             score={score}
