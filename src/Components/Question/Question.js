@@ -44,7 +44,7 @@ const Question = ({  currQues, setCurrQues,question,options,correct,score,setSco
 
   const handleNext = () => {
     if (currQues > 8) {
-      navigate.push("/result");
+      navigate("/result");
     } else if (selected) {
       setCurrQues(currQues + 1);
       setSelected();
