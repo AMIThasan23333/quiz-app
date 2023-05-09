@@ -53,7 +53,7 @@ const Quiz = ({ name, questions, score, setScore, setQuestions }) => {
       ) : (
         <CircularProgress    style={{ margin: 100 }}
         color="inherit"
-        size={150}
+        size={45}
         thickness={1} />
 
 
